@@ -4,7 +4,7 @@
 
 The CyberPatriot Program was founded in 2001 where vulnerabilities were investigated on a Windows system with just a small number of teams. After this successful trial run and positive responses from participants and mentors, the program continued and expanded. This program is now focused on high school students where competitions are held annually. Students have the ability to compete up to the national level upon moving forward multiple rounds.
 
-The training resources that are being developed are Windows and Linux virtual machines that are intentionally vulnerable. A similar project that already exists and focuses on web application security is Damn Vulnerable Web Application (DVWA), an intentionally vulnerable web server. While this draws a parallel to the project that we are developing, there isn't 
+The training resources that are being developed are Windows and Linux virtual machines that are intentionally vulnerable. A similar project that already exists and focuses on web application security is Damn Vulnerable Web Application (DVWA), an intentionally vulnerable web server. While this draws a parallel to the project that we are developing, there isn't a widely available set of virtual machines focusing on vulnerabilities within Windows and Linux. 
 
 ## Background
 
