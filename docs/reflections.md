@@ -31,3 +31,13 @@ To do:
 * Test installing TCP bind backdoor as a service
 * Install noisy network programs
 * Lab Guide documentation
+
+# Week 4 Reflection
+
+During this week, I finished the PowerShell script for the lab and completed the lab guide. I ended up implementing 3 different backdoors: one TCP bind meterpreter shell, and two netcat shells. Two of these were installed as services, and one was set to run on startup under privileges of `NT AUTHORITY\SYSTEM` as a scheduled task. This provided opportunities in the lab guide to discuss processes, services, and networking on Windows. 
+
+In the lab guide, a lot of time was devoted to explaining processes, users, and a bunch of different related attributes that are built-in and what should be expected on a Windows system. Throughout the lab, I referenced CurrPorts, Process Explorer, and Autoruns. This helped describe process relationships, privileges, and locations of PE files and how they relate to running processes. Our presentation of this sprint's progress went well and the amount of work completed this sprint will serve as a good baseline for our next sprint's work.
+
+# Week 5 Reflection
+
+This week, I reached out to Duane on system hardening resources. I've started to go over CIS standards and think about what I can create for the next lab. Duane taught a system hardening course last semester and I will be using some resources he created to build into a lab guide into generic Windows system hardening. 
