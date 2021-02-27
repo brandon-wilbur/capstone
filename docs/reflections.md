@@ -40,4 +40,4 @@ In the lab guide, a lot of time was devoted to explaining processes, users, and 
 
 # Week 5 Reflection
 
-This week, I reached out to Duane on system hardening resources. I've started to go over CIS standards and think about what I can create for the next lab. Duane taught a system hardening course last semester and I will be using some resources he created to build into a lab guide into generic Windows system hardening. 
+This week, I reached out to Duane on system hardening resources. I've started to go over CIS standards and think about what I can create for the next lab. Duane taught a system hardening course last semester and I will be using some resources he created to build into a lab guide into generic Windows system hardening. This next week will consist of more research and finalizing a list of points that are going to be touched upon in the lab so the PowerShell script can be focused on introducing vulnerabilities in specific areas.
