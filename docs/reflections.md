@@ -41,3 +41,46 @@ In the lab guide, a lot of time was devoted to explaining processes, users, and 
 # Week 5 Reflection
 
 This week, I reached out to Duane on system hardening resources. I've started to go over CIS standards and think about what I can create for the next lab. Duane taught a system hardening course last semester and I will be using some resources he created to build into a lab guide into generic Windows system hardening. This next week will consist of more research and finalizing a list of points that are going to be touched upon in the lab so the PowerShell script can be focused on introducing vulnerabilities in specific areas.
+
+# Week 6 Reflection
+
+This week, I finalized the list of topics that I'm going to be covering in the lab and reviewed Duane's resources on Windows hardening:
+
+## Topics:
+
+* Local Security Policies
+    * `net accounts` to view current policies in place
+    * use `Local Security Policy` editor to modify policies on local system in GUI, use `Explain` tab for setting description.
+        * `Security Settings > Account Policies > Password Policy`
+            * modify password requirements for users
+        * `Security Settings > Account Policies > Account Lockout Policy`
+            * modify lockout settings for users
+        * `Security Settings > Local Policies > Audit Policy`
+            * change what events are audited (logs) for various events regarding users / privileges
+        * `Security Settings > Local Policies > User Rights Assignment`
+            * leave as is - **TODO:** check this out further
+        * `Security Settings > Local Policies > Security Options`
+            * don't display username at login
+            * give user warning before password expiration
+            * rename Administrator account
+            * rename Guest account
+            * add interactive logon message title and message
+* Run `net user <username> *` to change the local password of an account
+* Run Windows Update locally
+* WSUS for domain organizations
+* Windows Defender
+    * `Windows Security > Virus & threat protection settings`
+        * enable Real-time protection
+            * Demonstrate PowerShell reverse shell one-liner failing
+        * enable Cloud-delivered protection
+        * automatic sample submission (off for corporate environments, explain sending data to Microsoft)
+        * controlled folder access
+            * Requires Win 10 Pro or Win 10 Enterprise
+            * Demonstrate [ransomware test script](https://thomasrayner.ca/using-powershell-to-simulate-a-ransomware-attack/)
+        * audit exclusions
+    * `Windows Security > Firewall & network protection`
+        * Turn the Firewall on
+    * `Windows Security > App & browser control`
+        * Audit settings for Edge and Internet Explorer
+    * `Windows Security > Device security > Core isolation`
+        * turn on memory integrity
