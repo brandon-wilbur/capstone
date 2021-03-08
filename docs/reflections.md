@@ -84,3 +84,5 @@ This week, I finalized the list of topics that I'm going to be covering in the l
         * Audit settings for Edge and Internet Explorer
     * `Windows Security > Device security > Core isolation`
         * turn on memory integrity
+
+In addition, CIS benchmarks need to be reviewed before creating the lab guide this week. I plan on scanning these and identifying easy wins to include in the lab that align with what material Duane covered so far.
