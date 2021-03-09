@@ -58,7 +58,8 @@ This week, I finalized the list of topics that I'm going to be covering in the l
         * `Security Settings > Local Policies > Audit Policy`
             * change what events are audited (logs) for various events regarding users / privileges
         * `Security Settings > Local Policies > User Rights Assignment`
-            * leave as is - **TODO:** check this out further
+            * disable RDP logon
+            * specify who can log on locally
         * `Security Settings > Local Policies > Security Options`
             * don't display username at login
             * give user warning before password expiration
