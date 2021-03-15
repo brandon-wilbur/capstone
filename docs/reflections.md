@@ -87,3 +87,7 @@ This week, I finalized the list of topics that I'm going to be covering in the l
         * turn on memory integrity
 
 In addition, CIS benchmarks need to be reviewed before creating the lab guide this week. I plan on scanning these and identifying easy wins to include in the lab that align with what material Duane covered so far.
+
+# Week 7 Reflection
+
+This week was crunch time for the second sprint with hammering out documentation. The above points were implemented in the PowerShell script. After configuring policies in the local security policy editor, the configuration was exported into a file and then converted to a Base64 string. When the script runs, this poorly-configured policy will be dropped to disk to be applied and then removed. Additionally, UAC bypass was configured to touch on an additional element of system hardening. After the lab is complete, the lab guide may be a good time to discuss the Windows Event log and show the benefits that Sysmon can provide.
