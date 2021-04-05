@@ -95,3 +95,17 @@ This week was crunch time for the second sprint with hammering out documentation
 # Week 8 Reflection
 
 This week was a light week on project work, but I made a helper script with a custom PowerShell function, `Set-LocalSecurityPolicy`, to help future developers of this project produce more diverse local security policies per Duane's request. Our second sprint officially ended on Monday, so this third sprint will be focused on unnecessary software on a Windows system. Because this is anticipated to be lighter than usual, this sprint is going to also focus on an organization system for this project. This can easily live inside a GitHub repo with Github Pages used for presentation. This will easily allow anyone who wants to contribute to submit their own markdown files for new labs and scripts can be easily linked here. Some work needs to be done to convert our current Word documents into markdown so it can more easily live here. In addition to this, we're going to need to add some documentation to explain clearly what each lab is trying to demonstrate so information is easier to find.
+
+# Weeks 9-11 Reflection
+
+In this cycle, I focused on creating a software auditing lab for unneeded software on Windows 10. This required finding software to install and then remove from Windows 10 using Chocolatey and optional features in Windows. I ended up using OpenSSH and Hyper-V as different pieces of software for the user to install. On top of this, I showed how to configure Bitlocker and restrict the software that users of a workstation could run. This wasn't demonstrable on my workstation due to licensing not meeting the criteria to run Bitlocker, but steps should prove successful on a legitimate copy of Windows 10 used on a virtual machine.
+
+In addition to this, a main focus of this sprint was getting our capstone project organized and presentable. Ryan and I decided that the project would be most easily accessible and open to future contributions on GitHub. While it is still a work in progress, we launched a repo under my account at this link:
+
+https://github.com/brandon-wilbur/cyberlabs
+
+And the presentable GitHub page was published at this link:
+
+https://brandon-wilbur.github.io/cyberlabs/
+
+Ideally, this can be used as an open location for any volunteers to publish lab content. Underlying markdown files and all items lying in the `/docs` directory of our repo make it relatively simple for any individual to fork our project and submit a pull request to add more content. We chose to stick with the name **Cyberlabs**, as the content contained within here can stretch more broadly beyond just the CyberPatriot program for which the guides are originally intended. Rather than writing labs in Word and distributing them with a semi-public Google Drive link, anyone can distribute our guides with a simple URL to any interested parties. I am very satisfied at the overall look and organization of our labs in this current state and will get feedback from Duane and Devin tomorrow.
