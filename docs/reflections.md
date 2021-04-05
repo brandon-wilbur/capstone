@@ -102,10 +102,10 @@ In this cycle, I focused on creating a software auditing lab for unneeded softwa
 
 In addition to this, a main focus of this sprint was getting our capstone project organized and presentable. Ryan and I decided that the project would be most easily accessible and open to future contributions on GitHub. While it is still a work in progress, we launched a repo under my account at this link:
 
-https://github.com/brandon-wilbur/cyberlabs
+<https://github.com/brandon-wilbur/cyberlabs>
 
 And the presentable GitHub page was published at this link:
 
-https://brandon-wilbur.github.io/cyberlabs/
+<https://brandon-wilbur.github.io/cyberlabs/>
 
 Ideally, this can be used as an open location for any volunteers to publish lab content. Underlying markdown files and all items lying in the `/docs` directory of our repo make it relatively simple for any individual to fork our project and submit a pull request to add more content. We chose to stick with the name **Cyberlabs**, as the content contained within here can stretch more broadly beyond just the CyberPatriot program for which the guides are originally intended. Rather than writing labs in Word and distributing them with a semi-public Google Drive link, anyone can distribute our guides with a simple URL to any interested parties. I am very satisfied at the overall look and organization of our labs in this current state and will get feedback from Duane and Devin tomorrow.
