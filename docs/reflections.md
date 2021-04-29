@@ -109,3 +109,17 @@ And the presentable GitHub page was published at this link:
 <https://brandon-wilbur.github.io/cyberlabs/>
 
 Ideally, this can be used as an open location for any volunteers to publish lab content. Underlying markdown files and all items lying in the `/docs` directory of our repo make it relatively simple for any individual to fork our project and submit a pull request to add more content. We chose to stick with the name **Cyberlabs**, as the content contained within here can stretch more broadly beyond just the CyberPatriot program for which the guides are originally intended. Rather than writing labs in Word and distributing them with a semi-public Google Drive link, anyone can distribute our guides with a simple URL to any interested parties. I am very satisfied at the overall look and organization of our labs in this current state and will get feedback from Duane and Devin tomorrow.
+
+# Final Reflections
+
+In the final few weeks, Ryan and I haven't had any more tasks to complete for our Capstone project as we finished up all of our sprint cycles at the end of April. As our project was service-based, this was a very nice way to end the year. Whereas most groups explored different project ideas and picked a final product in the first semester, we rolled with our project within the first few weeks of last semester. This enabled us to complete more tasks earlier in the semester than other groups doing research projects and gave us a calm ending to the semester. 
+
+This project has helped me explore how to red team Windows machines and learn how to exploit and mitigate various vulnerabilities hands-on. I'm glad I chose this project, as I feel much more confident with Windows scripting skills and learned a lot of Windows internals information in relation to how attackers operate. This forced me to think like a blue teamer and a red teamer and was a fantastic learning experience. 
+
+While our project started as a collection of Google Docs and files in a Google Drive folder, we ended up moving our project over to GitHub and GitHub Pages so students can directly access our content with a URL. We moved our page over to a dedicated organization called `champlain-cyberlabs` on GitHub so our URL isn't tied to any one of our names:
+
+<https://champlain-cyberlabs.github.io/cyberlabs/>
+
+Having version control behind the project and having our docs in markdown helps keep our content organized and standardized rather than working with a host of different formatting options in a formal document editor. Hosting this project on an organization page is also ideal, as Duane, Ryan and I are all owners. If another group of students chooses to continue this project in the future, any of us can add them as owners of the organization and they will have direct access to modify the repository as they wish. Additionally, any member of the community can add their own labs to this project by forking and submitting a pull request against this repo. 
+
+While Duane was initially hesitant about spending a significant amount of time moving our content over to GitHub and instead wanted us to spend more of our time working on actual lab guides, this was well-worth it. We actually distracted Duane for the entire first five minutes of the meeting because he was so busy exploring and taking in our site. Having this project available as a public resource is something that we can reference and be proud of for the rest of our careers.
